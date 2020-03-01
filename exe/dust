@@ -1,0 +1,2 @@
+require 'dustdus'
+Dustdus::Command.start
