@@ -6,7 +6,6 @@ module Dustdus
     desc 'stats', 'statistics'
 
     def stats(name = "")
-      # diff = STDIN.noecho(&:readlines)
       diff = $stdin.readlines
       patches = GitDiffParser.parse(diff.join)
 
